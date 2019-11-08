@@ -1,13 +1,9 @@
 import re
-import os
-import csv
-import json
-import time
 import scrapy
 
 from lxml import html
 from urllib.parse import urljoin
-from scrapy.http import Request, FormRequest
+from scrapy.http import Request
 
 
 class CoffeeRoasterItem(scrapy.Item):
